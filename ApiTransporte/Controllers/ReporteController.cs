@@ -24,6 +24,12 @@ namespace ApiTransporte.Controllers
                 .ToListAsync();
         }
 
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<Reporte>>> GetReportes()
+        {
+            return await _context.Reporte.ToListAsync();
+        }
+
         [HttpPost]
         public async Task<ActionResult<Reporte>> CrearReporte(Reporte reporte)
         {

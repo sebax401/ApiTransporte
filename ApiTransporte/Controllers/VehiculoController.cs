@@ -22,6 +22,14 @@ namespace ApiTransporte.Controllers
             return await _context.Vehiculo.ToListAsync();
         }
 
+        [HttpGet("vehiculo/{idVehiculo}")]
+        public async Task<ActionResult<IEnumerable<Reporte>>> ObtenerReportesVehiculo(int idVehiculo)
+        {
+            return await _context.Reporte
+                .Where(r => r.IdVehiculo == idVehiculo)
+                .ToListAsync();
+        }
+
         [HttpGet("{id}")]
         public async Task<ActionResult<Vehiculo>> GetVehiculo(int id)
         {
