@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\cabre\\Desktop\\ProyectoTransporte\\ApiTransporte\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3B960965-0892-AB57-D126-0A686B8C19E8}|ApiTransporte\\ApiTransporte.csproj|c:\\users\\cabre\\desktop\\proyectotransporte\\apitransporte\\apitransporte\\controllers\\vehiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B960965-0892-AB57-D126-0A686B8C19E8}|ApiTransporte\\ApiTransporte.csproj|solutionrelative:apitransporte\\controllers\\vehiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B960965-0892-AB57-D126-0A686B8C19E8}|ApiTransporte\\ApiTransporte.csproj|c:\\users\\cabre\\desktop\\proyectotransporte\\apitransporte\\apitransporte\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B960965-0892-AB57-D126-0A686B8C19E8}|ApiTransporte\\ApiTransporte.csproj|solutionrelative:apitransporte\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B960965-0892-AB57-D126-0A686B8C19E8}|ApiTransporte\\ApiTransporte.csproj|c:\\users\\cabre\\desktop\\proyectotransporte\\apitransporte\\apitransporte\\models\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B960965-0892-AB57-D126-0A686B8C19E8}|ApiTransporte\\ApiTransporte.csproj|solutionrelative:apitransporte\\models\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B960965-0892-AB57-D126-0A686B8C19E8}|ApiTransporte\\ApiTransporte.csproj|c:\\users\\cabre\\desktop\\proyectotransporte\\apitransporte\\apitransporte\\models\\reporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B960965-0892-AB57-D126-0A686B8C19E8}|ApiTransporte\\ApiTransporte.csproj|solutionrelative:apitransporte\\models\\reporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B960965-0892-AB57-D126-0A686B8C19E8}|ApiTransporte\\ApiTransporte.csproj|c:\\users\\cabre\\desktop\\proyectotransporte\\apitransporte\\apitransporte\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B960965-0892-AB57-D126-0A686B8C19E8}|ApiTransporte\\ApiTransporte.csproj|solutionrelative:apitransporte\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B960965-0892-AB57-D126-0A686B8C19E8}|ApiTransporte\\ApiTransporte.csproj|c:\\users\\cabre\\desktop\\proyectotransporte\\apitransporte\\apitransporte\\controllers\\reportecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B960965-0892-AB57-D126-0A686B8C19E8}|ApiTransporte\\ApiTransporte.csproj|solutionrelative:apitransporte\\controllers\\reportecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,63 +19,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "VehiculoController.cs",
-              "DocumentMoniker": "C:\\Users\\cabre\\Desktop\\ProyectoTransporte\\ApiTransporte\\ApiTransporte\\Controllers\\VehiculoController.cs",
-              "RelativeDocumentMoniker": "ApiTransporte\\Controllers\\VehiculoController.cs",
-              "ToolTip": "C:\\Users\\cabre\\Desktop\\ProyectoTransporte\\ApiTransporte\\ApiTransporte\\Controllers\\VehiculoController.cs",
-              "RelativeToolTip": "ApiTransporte\\Controllers\\VehiculoController.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAA6wGMAAAABAAAAAAAAAA==",
+              "Title": "ReporteController.cs",
+              "DocumentMoniker": "C:\\Users\\cabre\\Desktop\\ProyectoTransporte\\ApiTransporte\\ApiTransporte\\Controllers\\ReporteController.cs",
+              "RelativeDocumentMoniker": "ApiTransporte\\Controllers\\ReporteController.cs",
+              "ToolTip": "C:\\Users\\cabre\\Desktop\\ProyectoTransporte\\ApiTransporte\\ApiTransporte\\Controllers\\ReporteController.cs",
+              "RelativeToolTip": "ApiTransporte\\Controllers\\ReporteController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-06T21:40:23.617Z",
+              "WhenOpened": "2026-06-06T23:29:40.059Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\cabre\\Desktop\\ProyectoTransporte\\ApiTransporte\\ApiTransporte\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "ApiTransporte\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\cabre\\Desktop\\ProyectoTransporte\\ApiTransporte\\ApiTransporte\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "ApiTransporte\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-06T21:14:38.811Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Vehiculo.cs",
-              "DocumentMoniker": "C:\\Users\\cabre\\Desktop\\ProyectoTransporte\\ApiTransporte\\ApiTransporte\\Models\\Vehiculo.cs",
-              "RelativeDocumentMoniker": "ApiTransporte\\Models\\Vehiculo.cs",
-              "ToolTip": "C:\\Users\\cabre\\Desktop\\ProyectoTransporte\\ApiTransporte\\ApiTransporte\\Models\\Vehiculo.cs",
-              "RelativeToolTip": "ApiTransporte\\Models\\Vehiculo.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-06T21:11:44.013Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Reporte.cs",
-              "DocumentMoniker": "C:\\Users\\cabre\\Desktop\\ProyectoTransporte\\ApiTransporte\\ApiTransporte\\Models\\Reporte.cs",
-              "RelativeDocumentMoniker": "ApiTransporte\\Models\\Reporte.cs",
-              "ToolTip": "C:\\Users\\cabre\\Desktop\\ProyectoTransporte\\ApiTransporte\\ApiTransporte\\Models\\Reporte.cs",
-              "RelativeToolTip": "ApiTransporte\\Models\\Reporte.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-06T21:11:42.107Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\cabre\\Desktop\\ProyectoTransporte\\ApiTransporte\\ApiTransporte\\Program.cs",
-              "RelativeDocumentMoniker": "ApiTransporte\\Program.cs",
-              "ToolTip": "C:\\Users\\cabre\\Desktop\\ProyectoTransporte\\ApiTransporte\\ApiTransporte\\Program.cs",
-              "RelativeToolTip": "ApiTransporte\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-06T21:06:17.848Z"
             }
           ]
         }
