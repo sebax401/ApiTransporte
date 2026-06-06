@@ -21,5 +21,7 @@ namespace ApiTransporte.Models
         public string? Observacion { get; set; }
         public int? IdConductor { get; set; }
         public bool Estado { get; set; }
+
+        public ICollection<Reporte>? Reportes { get; set; }
     }
 }
