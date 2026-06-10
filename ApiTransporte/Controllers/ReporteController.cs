@@ -40,5 +40,19 @@ namespace ApiTransporte.Controllers
 
             return Ok(reporte);
         }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutReporte(int id, Reporte reporte)
+        {
+            if (id != reporte.IdReporte)
+            {
+                return BadRequest();
+            }
+
+            _context.Entry(reporte).State = EntityState.Modified;
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
     }
 }
