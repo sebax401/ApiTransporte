@@ -11,7 +11,7 @@ namespace ApiTransporte.Models
         public string TipoReporte { get; set; } = string.Empty;
         public DateTime FechaGeneracion { get; set; } = DateTime.Now;
         public string? Descripcion { get; set; }
-
+        public string? NombreRepuesto { get; set; }
         public int IdVehiculo { get; set; }
         public decimal? ValorRepuesto { get; set; }
         public string? LugarCompra { get; set; }
