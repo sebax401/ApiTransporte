@@ -1,8 +1,6 @@
 using ApiTransporte.Data;
 using Microsoft.EntityFrameworkCore;
 
-using ApiTransporte.Data;
-
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddCors(options =>

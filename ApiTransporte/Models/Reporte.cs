@@ -13,6 +13,8 @@ namespace ApiTransporte.Models
         public string? Descripcion { get; set; }
 
         public int IdVehiculo { get; set; }
+        public decimal? ValorRepuesto { get; set; }
+        public string? LugarCompra { get; set; }
 
         [ForeignKey("IdVehiculo")]public Vehiculo? Vehiculo { get; set; }
     }
