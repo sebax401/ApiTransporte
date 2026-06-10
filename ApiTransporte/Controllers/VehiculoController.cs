@@ -22,12 +22,14 @@ namespace ApiTransporte.Controllers
             return await _context.Vehiculo.ToListAsync();
         }
 
-        [HttpGet("vehiculo/{idVehiculo}")]
-        public async Task<ActionResult<IEnumerable<Reporte>>> ObtenerReportesVehiculo(int idVehiculo)
+        [HttpGet("{id}/reportes")]
+        public async Task<ActionResult<IEnumerable<Reporte>>> ObtenerReportesVehiculo(int id)
         {
-            return await _context.Reporte
-                .Where(r => r.IdVehiculo == idVehiculo)
+            var reportes = await _context.Reporte
+                .Where(r => r.IdVehiculo == id)
                 .ToListAsync();
+
+            return Ok(reportes);
         }
 
         [HttpGet("{id}")]
@@ -95,16 +97,6 @@ namespace ApiTransporte.Controllers
             await _context.SaveChangesAsync();
 
             return NoContent();
-        }
-
-        [HttpGet("{id}/reportes")]
-        public async Task<ActionResult<IEnumerable<Reporte>>> ObtenerReportesVehiculo(int id)
-        {
-            var reportes = await _context.Reporte
-                .Where(r => r.IdVehiculo == id)
-                .ToListAsync();
-
-            return Ok(reportes);
         }
     }
 }
