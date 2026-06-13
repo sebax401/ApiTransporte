@@ -33,7 +33,7 @@ namespace ApiTransporte.Controllers
         [HttpPost]
         public async Task<ActionResult<Reporte>> CrearReporte(Reporte reporte)
         {
-            reporte.FechaGeneracion = DateTime.Now;
+            reporte.FechaGeneracion = DateTime.UtcNow.ToString("o");
 
             _context.Reporte.Add(reporte);
             await _context.SaveChangesAsync();
