@@ -5,6 +5,181 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/Reportes/vehiculo/{idVehiculo}": {
+      "get": {
+        "tags": [
+          "Reportes"
+        ],
+        "parameters": [
+          {
+            "name": "idVehiculo",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Reporte"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Reporte"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Reporte"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Reportes": {
+      "get": {
+        "tags": [
+          "Reportes"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Reporte"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Reporte"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Reporte"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Reportes"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Reporte"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Reporte"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Reporte"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Reporte"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Reporte"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Reporte"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Reportes/{id}": {
+      "put": {
+        "tags": [
+          "Reportes"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Reporte"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Reporte"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Reporte"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Vehiculos": {
       "get": {
         "tags": [
@@ -82,6 +257,55 @@
               "text/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Vehiculo"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Vehiculos/{id}/reportes": {
+      "get": {
+        "tags": [
+          "Vehiculos"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Reporte"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Reporte"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Reporte"
+                  }
                 }
               }
             }
@@ -193,6 +417,48 @@
   },
   "components": {
     "schemas": {
+      "Reporte": {
+        "type": "object",
+        "properties": {
+          "idReporte": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tipoReporte": {
+            "type": "string",
+            "nullable": true
+          },
+          "fechaGeneracion": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "descripcion": {
+            "type": "string",
+            "nullable": true
+          },
+          "nombreRepuesto": {
+            "type": "string",
+            "nullable": true
+          },
+          "idVehiculo": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "valorRepuesto": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "lugarCompra": {
+            "type": "string",
+            "nullable": true
+          },
+          "vehiculo": {
+            "$ref": "#/components/schemas/Vehiculo"
+          }
+        },
+        "additionalProperties": false
+      },
       "Vehiculo": {
         "type": "object",
         "properties": {
@@ -221,19 +487,16 @@
             "format": "int32",
             "nullable": true
           },
-          "fechaRevisionTecnica": {
-            "type": "string",
-            "format": "date-time",
-            "nullable": true
-          },
           "fechaUltimaMantencion": {
             "type": "string",
-            "format": "date-time",
             "nullable": true
           },
           "fechaProximaMantencion": {
             "type": "string",
-            "format": "date-time",
+            "nullable": true
+          },
+          "fechaRevisionTecnica": {
+            "type": "string",
             "nullable": true
           },
           "estadoDpf": {
@@ -259,6 +522,13 @@
           },
           "estado": {
             "type": "boolean"
+          },
+          "reportes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Reporte"
+            },
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -266,6 +536,9 @@
     }
   },
   "tags": [
+    {
+      "name": "Reportes"
+    },
     {
       "name": "Vehiculos"
     }

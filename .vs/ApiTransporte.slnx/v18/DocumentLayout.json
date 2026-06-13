@@ -1,70 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\cabre\\Desktop\\ProyectoTransporte\\ApiTransporte\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{3B960965-0892-AB57-D126-0A686B8C19E8}|ApiTransporte\\ApiTransporte.csproj|c:\\users\\cabre\\desktop\\proyectotransporte\\apitransporte\\apitransporte\\models\\reporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B960965-0892-AB57-D126-0A686B8C19E8}|ApiTransporte\\ApiTransporte.csproj|solutionrelative:apitransporte\\models\\reporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B960965-0892-AB57-D126-0A686B8C19E8}|ApiTransporte\\ApiTransporte.csproj|c:\\users\\cabre\\desktop\\proyectotransporte\\apitransporte\\apitransporte\\controllers\\reportecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B960965-0892-AB57-D126-0A686B8C19E8}|ApiTransporte\\ApiTransporte.csproj|solutionrelative:apitransporte\\controllers\\reportecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B960965-0892-AB57-D126-0A686B8C19E8}|ApiTransporte\\ApiTransporte.csproj|c:\\users\\cabre\\desktop\\proyectotransporte\\apitransporte\\apitransporte\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B960965-0892-AB57-D126-0A686B8C19E8}|ApiTransporte\\ApiTransporte.csproj|solutionrelative:apitransporte\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ReporteController.cs",
-              "DocumentMoniker": "C:\\Users\\cabre\\Desktop\\ProyectoTransporte\\ApiTransporte\\ApiTransporte\\Controllers\\ReporteController.cs",
-              "RelativeDocumentMoniker": "ApiTransporte\\Controllers\\ReporteController.cs",
-              "ToolTip": "C:\\Users\\cabre\\Desktop\\ProyectoTransporte\\ApiTransporte\\ApiTransporte\\Controllers\\ReporteController.cs",
-              "RelativeToolTip": "ApiTransporte\\Controllers\\ReporteController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAA2wDcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-10T20:30:26.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Reporte.cs",
-              "DocumentMoniker": "C:\\Users\\cabre\\Desktop\\ProyectoTransporte\\ApiTransporte\\ApiTransporte\\Models\\Reporte.cs",
-              "RelativeDocumentMoniker": "ApiTransporte\\Models\\Reporte.cs",
-              "ToolTip": "C:\\Users\\cabre\\Desktop\\ProyectoTransporte\\ApiTransporte\\ApiTransporte\\Models\\Reporte.cs",
-              "RelativeToolTip": "ApiTransporte\\Models\\Reporte.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-10T20:16:27.629Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\cabre\\Desktop\\ProyectoTransporte\\ApiTransporte\\ApiTransporte\\Program.cs",
-              "RelativeDocumentMoniker": "ApiTransporte\\Program.cs",
-              "ToolTip": "C:\\Users\\cabre\\Desktop\\ProyectoTransporte\\ApiTransporte\\ApiTransporte\\Program.cs",
-              "RelativeToolTip": "ApiTransporte\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-10T17:09:42.253Z"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

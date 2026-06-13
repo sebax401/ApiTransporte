@@ -12,9 +12,9 @@ namespace ApiTransporte.Models
         public string Modelo { get; set; } = string.Empty;
         public int Anio { get; set; }
         public int? ProximoKilometraje { get; set; }
-        public DateTime? FechaRevisionTecnica { get; set; }
-        public DateTime? FechaUltimaMantencion { get; set; }
-        public DateTime? FechaProximaMantencion { get; set; }
+        public string? FechaUltimaMantencion { get; set; }
+        public string? FechaProximaMantencion { get; set; }
+        public string? FechaRevisionTecnica { get; set; }
         public string? EstadoDpf { get; set; }
         public string? EstadoRevision { get; set; }
         public string? EstadoExtintor { get; set; }
