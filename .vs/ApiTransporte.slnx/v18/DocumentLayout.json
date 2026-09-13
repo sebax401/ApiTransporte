@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\cabre\\Desktop\\ProyectoTransporte\\ApiTransporte\\",
+  "WorkspaceRootPath": "C:\\Users\\cabre\\Desktop\\Carpetas\\ProyectoTransporte\\ApiTransporte\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3B960965-0892-AB57-D126-0A686B8C19E8}|ApiTransporte\\ApiTransporte.csproj|c:\\users\\cabre\\desktop\\proyectotransporte\\apitransporte\\apitransporte\\controllers\\reportecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B960965-0892-AB57-D126-0A686B8C19E8}|ApiTransporte\\ApiTransporte.csproj|solutionrelative:apitransporte\\controllers\\reportecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cabre\\Desktop\\Carpetas\\ProyectoTransporte\\ApiTransporte\\ApiTransporte\\Migrations\\20260913163737_ActualizarBaseDatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ApiTransporte\\Migrations\\20260913163737_ActualizarBaseDatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B960965-0892-AB57-D126-0A686B8C19E8}|ApiTransporte\\ApiTransporte.csproj|c:\\users\\cabre\\desktop\\proyectotransporte\\apitransporte\\apitransporte\\models\\reporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B960965-0892-AB57-D126-0A686B8C19E8}|ApiTransporte\\ApiTransporte.csproj|solutionrelative:apitransporte\\models\\reporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B960965-0892-AB57-D126-0A686B8C19E8}|ApiTransporte\\ApiTransporte.csproj|c:\\users\\cabre\\desktop\\carpetas\\proyectotransporte\\apitransporte\\apitransporte\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B960965-0892-AB57-D126-0A686B8C19E8}|ApiTransporte\\ApiTransporte.csproj|solutionrelative:apitransporte\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B960965-0892-AB57-D126-0A686B8C19E8}|ApiTransporte\\ApiTransporte.csproj|c:\\users\\cabre\\desktop\\carpetas\\proyectotransporte\\apitransporte\\apitransporte\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3B960965-0892-AB57-D126-0A686B8C19E8}|ApiTransporte\\ApiTransporte.csproj|solutionrelative:apitransporte\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ReporteController.cs",
-              "DocumentMoniker": "C:\\Users\\cabre\\Desktop\\ProyectoTransporte\\ApiTransporte\\ApiTransporte\\Controllers\\ReporteController.cs",
-              "RelativeDocumentMoniker": "ApiTransporte\\Controllers\\ReporteController.cs",
-              "ToolTip": "C:\\Users\\cabre\\Desktop\\ProyectoTransporte\\ApiTransporte\\ApiTransporte\\Controllers\\ReporteController.cs",
-              "RelativeToolTip": "ApiTransporte\\Controllers\\ReporteController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA1wCMAAABEAAAAAAAAAA==",
+              "Title": "20260913163737_ActualizarBaseDatos.cs",
+              "DocumentMoniker": "C:\\Users\\cabre\\Desktop\\Carpetas\\ProyectoTransporte\\ApiTransporte\\ApiTransporte\\Migrations\\20260913163737_ActualizarBaseDatos.cs",
+              "RelativeDocumentMoniker": "ApiTransporte\\Migrations\\20260913163737_ActualizarBaseDatos.cs",
+              "ToolTip": "C:\\Users\\cabre\\Desktop\\Carpetas\\ProyectoTransporte\\ApiTransporte\\ApiTransporte\\Migrations\\20260913163737_ActualizarBaseDatos.cs",
+              "RelativeToolTip": "ApiTransporte\\Migrations\\20260913163737_ActualizarBaseDatos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-13T18:23:39.54Z",
+              "WhenOpened": "2026-09-13T16:37:37.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\cabre\\Desktop\\Carpetas\\ProyectoTransporte\\ApiTransporte\\ApiTransporte\\appsettings.json",
+              "RelativeDocumentMoniker": "ApiTransporte\\appsettings.json",
+              "ToolTip": "C:\\Users\\cabre\\Desktop\\Carpetas\\ProyectoTransporte\\ApiTransporte\\ApiTransporte\\appsettings.json",
+              "RelativeToolTip": "ApiTransporte\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-13T16:31:56.91Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Reporte.cs",
-              "DocumentMoniker": "C:\\Users\\cabre\\Desktop\\ProyectoTransporte\\ApiTransporte\\ApiTransporte\\Models\\Reporte.cs",
-              "RelativeDocumentMoniker": "ApiTransporte\\Models\\Reporte.cs",
-              "ToolTip": "C:\\Users\\cabre\\Desktop\\ProyectoTransporte\\ApiTransporte\\ApiTransporte\\Models\\Reporte.cs",
-              "RelativeToolTip": "ApiTransporte\\Models\\Reporte.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\cabre\\Desktop\\Carpetas\\ProyectoTransporte\\ApiTransporte\\ApiTransporte\\Program.cs",
+              "RelativeDocumentMoniker": "ApiTransporte\\Program.cs",
+              "ToolTip": "C:\\Users\\cabre\\Desktop\\Carpetas\\ProyectoTransporte\\ApiTransporte\\ApiTransporte\\Program.cs",
+              "RelativeToolTip": "ApiTransporte\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-13T18:19:58.149Z",
+              "WhenOpened": "2026-09-13T16:30:16.935Z",
               "EditorCaption": ""
             }
           ]
